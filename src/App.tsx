@@ -8,12 +8,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: (
-        <div className="bg-[url('/hero-image.jpg')] bg-no-repeat min-h-[800px] w-full bg-cover bg-black">
-          <Navbar />
-          <Home />
-        </div>
-      ),
+      element: <Home />,
     },
   ]);
   return (
